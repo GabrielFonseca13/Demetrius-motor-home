@@ -1,88 +1,70 @@
 * {
-  font-family: 'Montserrat', sans-serif;
-  margin: 0;
+  font-family: 'Simple', sans-serif;
+  margin: 20px 10px 10px 10px;
   box-sizing: border-box;
 }
 
-h2,
-h3 {
-  margin: 0 0 20px;
+.cabecalho {
+  display: block;
 }
 
-p {
-  margin-bottom: 5px;
+#proposta {
+  text-align: right;
 }
 
-.header {
-  /* background-color: rgb(10, 126, 81); */
-  color: rgb(0, 0, 0);
+.consultor-dados {
+  text-align: right;
 }
 
-.title-container {
-  padding: 10px 30px 0;
+.section-title {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  background-color: #aaaaaa;
+  height: 60px;
+  justify-content: center;
+  font-size: 1;
 }
 
-.navigation {
-  background-color: cornflowerblue;
-  padding: 0 30px;
-}
-
-.navigation ul {
-  padding: 5px 0;
-}
-
-.navigation li {
-  margin-right: 40px;
-  list-style-type: none;
-  display: inline;
-}
-
-.navigation li a {
-  color: white;
-  text-decoration: none;
-}
-
-.content {
-  max-width: 1200px;
-  margin: auto;
-  flex-grow: 1;
-}
-
-.main-content {
-  width: 66%;
-  display: inline-block;
-}
-
-.side-bar {
-  background-color: lightgrey;
-  margin: 10px;
-  padding: 20px;
-  width: 200px;
-  display: inline-block;
-  vertical-align: top;
-}
-
-.article {
-  padding: 15px;
-}
-
-.article-small {
-  display: inline-block;
-  width: 30%;
-  margin-right: 10px;
-  padding: 15px;
-}
-
-.jobs {
-  margin-top: 40px;
-}
-
-/* .footer {
-  background-color: rgb(10, 126, 81);
-  color: white;
-  padding: 20px;
-  text-align: center;
-  bottom: 0;
-  position: fixed;
-  width: 100%;
+/* .veiculo {
+  border: 1px solid black;
 } */
+
+.detalhe-veiculo-linha-1 {
+  /* border: 1px black solid; */
+  display: flex;
+}
+
+#detalhe-veiculo-1 {
+  /* border: 1px solid black; */
+  width: 70%;
+}
+#detalhe-veiculo-2 {
+  /* border: 1px solid black; */
+  width: 30%;
+}
+
+.detalhe-veiculo-linha-2 {
+  display: flex;
+}
+#detalhe-veiculo-3 {
+  width: 35%;
+}
+
+#detalhe-veiculo-4 {
+  width: 35%;
+}
+
+#detalhe-veiculo-5 {
+  width: 30%;
+}
+
+.detalhes-proposta {
+  text-align: right;
+}
+
+#linha-final-proposta {
+  position: relative;
+  align-content: end;
+  margin-left: 500px;
+}

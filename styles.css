@@ -26,21 +26,14 @@
   font-size: 1;
 }
 
-/* .veiculo {
-  border: 1px solid black;
-} */
-
 .detalhe-veiculo-linha-1 {
-  /* border: 1px black solid; */
   display: flex;
 }
 
 #detalhe-veiculo-1 {
-  /* border: 1px solid black; */
   width: 70%;
 }
 #detalhe-veiculo-2 {
-  /* border: 1px solid black; */
   width: 30%;
 }
 
@@ -52,10 +45,6 @@
 }
 
 #detalhe-veiculo-4 {
-  width: 35%;
-}
-
-#detalhe-veiculo-5 {
   width: 30%;
 }
 
